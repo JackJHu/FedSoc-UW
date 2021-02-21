@@ -95,19 +95,34 @@ header img{
 }
 
 .about{
-  height: 400px;
+  position: relative;
+  height: 300px;
   text-align: center;
-  background: url(./Res/img/fedpapetrio.png) no-repeat center center/cover;
+  align-content: center;
+  background-color: black;
+  /* background: url(./Res/img/fedpapetrio.png) no-repeat center center/cover; */
 }
 
+.about::before{
+  content: "";
+  background: url(./Res/img/fedpapetrio.png) no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
 
 .about h1{
-  color: #fff;;
-  margin-top: 200px;
+  position: relative;
+  color: #fff;
   opacity: 100%;
+  margin-top: 5%;
 }
 
 .about p{
+  position: relative;
   color: #fff;
   width: 60%;
   margin: auto;
