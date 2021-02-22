@@ -64,7 +64,7 @@ header img{
 
 .mainNav span{
   padding: 0.5em;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .wrapper .mainNav span a:hover{
@@ -129,6 +129,27 @@ header img{
   opacity: 100%;
 }
 
+.events{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
 
+#Event-Disorder-Shapiro{
+  display: inline-flexbox;
+}
+
+.eventInfo{
+  display: inline-flexbox;
+  text-align: left;
+  width: 300px;
+  margin-left: 0.5em;
+}
+
+.eventInfo h3{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(70, 171, 200);
+}
 
 
